@@ -81,7 +81,7 @@ export default {
       resend.emails.send({
         from,
         to: subscriber,
-        subject: `[转发] ${subject}`,
+        subject: subject,
         html: html || undefined,
         text: text || undefined,
       })
